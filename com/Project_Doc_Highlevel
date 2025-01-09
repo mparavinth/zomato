@@ -1,0 +1,21 @@
+Scope:
+To build an interactive streamlit app to get the insights of the Zomato business.
+
+Technologies used:
+SQL, Python, Streamlit, Data Engineering, Object-Oriented Programming, Relational Databases, Data Analysis.
+
+Data Set:
+Using Faker Python to created dummy dataset
+
+Files:
+ZomatoStreamlit.py – is the file which hold the triggered point of application to create data by creating schema and insert data to backend.
+Credentials.py – is the file which holds the mysql db credentials.
+ZomatoDataExtractio.py – is the file which prepare the fake data’s using Faker library and prepare INSERT query.
+
+How to run the project:
+Credentials.py – is the file which holds the mysql db credentials. Make sure to update the credentials
+
+Step 1: Streamlit run ZomatoStreamlit.py
+Step 2: on load of home page create schema
+Step 3: after dataset is created and inserted in DB
+Step 4: Click on Show insgights or more insights button to explore the insights.
