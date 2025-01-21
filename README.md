@@ -34,6 +34,12 @@ Data Set:
 
 How to run the project:
 
+install below libraries:
+pandas
+mysql.connector-python
+Faker
+streamlit
+
 Step 1: streamlit run ZomatoStreamlit.py
 Step 2: on load of home page create schema
 Step 3: after dataset is created and inserted in DB
